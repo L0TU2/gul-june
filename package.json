@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-google": "0.7.1",
     "express": "4.15.3",
     "serve-index": "1.9.0",
     "webpack": "2.6.1",

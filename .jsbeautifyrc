@@ -1,0 +1,25 @@
+{
+	"indent_with_tabs": true,
+	"preserve_newlines": true,
+	"max_preserve_newlines": 3,
+	"end_with_newline": true,
+	"eol": "\n",
+	"html": {
+		"indent_with_tabs": true,
+		"preserve_newlines": true,
+		"max_preserve_newlines": 3,
+		"end_with_newline": true,
+		"eol": "\n",
+		"wrap-line-length": 100,
+		"js": {
+			"end_with_newline": false
+		}
+
+	},
+	"css": {
+
+	},
+	"js": {
+
+	}
+}
