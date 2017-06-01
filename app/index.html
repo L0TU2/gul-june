@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- for IE8 and IE9 -->
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!-- for mobiles no zoom -->
-		<title>exo</title>
-		<link rel="stylesheet" href="../node_modules/angular/angular-csp.css" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body ng-cloak ng-app="main" ng-js ng-csp> 
-		<h1>HELLO {{name}}</h1>
-	
-		<script src="./wpk/bundle.js"></script>
 
-	</body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- for IE8 and IE9 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!-- for mobiles no zoom -->
+	<title>exo</title>
+	<link rel="stylesheet" href="../node_modules/angular/angular-csp.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body ng-cloak ng-app="main" ng-js ng-csp>
+	<h1>HELLO {{name}}</h1>
+	<button ng-click="start()">Start</button>
+	<script src="./wpk/bundle.js"></script>
+
+</body>
+
 </html>
