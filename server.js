@@ -1,5 +1,6 @@
 const express = require('express');
-var serveIndex = require('serve-index');
+const serveIndex = require('serve-index');
+
 
 const app = express();
 
