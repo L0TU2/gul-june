@@ -2,7 +2,7 @@
 import 'angular';
 import './ors-debug/ors-debug.js';
 
-const app = angular.module('main', []);
+const app = angular.module('main', ['ors-debug']);
 app.run(function($rootScope) {
 	'ngInject';
 	$rootScope.name = 'angularJS';
