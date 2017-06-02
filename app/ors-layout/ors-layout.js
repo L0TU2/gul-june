@@ -20,14 +20,16 @@ app.directive('orsHeader', () => {
     };
 });
 
+import orsBodyUrl from './tmpl/ors-body.html';
 app.directive('orsBody', () => {
     return {
-        templateUrl: './ors-layout/tmpl/ors-body.html'
+        templateUrl: orsBodyUrl
     };
 });
 
+import orsFooterUrl from './tmpl/ors-footer.html';
 app.directive('orsFooter', () => {
     return {
-        templateUrl: './ors-layout/tmpl/ors-footer.html'
+        templateUrl: orsFooterUrl
     };
 });
