@@ -13,6 +13,7 @@
     "babel-core": "6.24.1",
     "babel-loader": "7.0.0",
     "babel-preset-env": "1.5.1",
+    "browser-sync": "2.18.12",
     "eslint": "3.19.0",
     "eslint-config-google": "0.7.1",
     "express": "4.15.3",

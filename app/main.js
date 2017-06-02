@@ -6,7 +6,7 @@ import './ors-perf/ors-perf.js';
 const app = angular.module('main', ['ors-debug', 'ors-perf']);
 app.run(function($rootScope) {
 	'ngInject';
-	$rootScope.name = 'angularJS';
+	$rootScope.name = 'AngularJS';
 	$rootScope.start = ()=>{
 		$rootScope.$emit('toto');
 	};
