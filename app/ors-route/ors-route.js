@@ -49,22 +49,26 @@ app.run(function($compile, $rootElement, $rootScope, $templateCache) {
 
 });
 
-// app.directive('orsBody', () => {
-// 	return {
-// 		priority: 1000,
-// 		terminal: true,
-// 		controller: function() {
-// 			console.log('orsBodyCtrl');
-// 		}
-// 	};
-// });
+app.directive('orsBody', () => {
+	return {
+		priority: 1000,
+		terminal: true,
+		controller: function($scope, $element, $compile) {
+            'ngInject';
+			console.log('orsBodyCtrl');
+            $compile($element.contents())($scope);
+		}
+	};
+});
 
-// app.directive('orsHeader', () => {
-// 	return {
-// 		priority: 1000,
-// 		terminal: true,
-// 		controller: function() {
-// 			console.log('orsHeaderCtrl');
-// 		}
-// 	};
-// });
+app.directive('orsHeader', () => {
+	return {
+		priority: 1000,
+		terminal: true,
+		controller: function($scope, $element, $compile) {
+            'ngInject';
+			console.log('orsHeaderCtrl');
+            $compile($element.contents())($scope);
+		}
+	};
+});
