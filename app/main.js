@@ -2,8 +2,10 @@
 import 'angular';
 import './ors-debug/ors-debug.js';
 import './ors-perf/ors-perf.js';
+import './ors-layout/ors-layout.js';
 
-const app = angular.module('main', ['ors-debug', 'ors-perf']);
+
+const app = angular.module('main', ['ors-debug', 'ors-perf', 'ors-layout']);
 app.run(function($rootScope) {
 	'ngInject';
 	$rootScope.name = 'AngularJS';

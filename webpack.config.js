@@ -18,7 +18,22 @@ module.exports = {
 			}, {
 				loader: 'babel-loader'
 			}]
-		}]
+		},
+		{
+				test: /\.html$/,
+				use: [{
+					loader: 'ngtemplate-loader',
+					options: {
+						relativeTo: 'app'
+					}
+				}, {
+					loader: 'html-loader',
+					options: {
+						attrs: 'img-svg:src',
+						root: path.resolve('./app')
+					}
+				}]
+			}]
 	},
     devtool: 'source-map',
 	plugins: [
