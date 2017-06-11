@@ -7,6 +7,7 @@ app.run(function($rootElement, $rootScope, $compile) {
 	'ngInject';
 
 	const elt = angular.element(`
+    <ors-tab></ors-tab>
     <ors-header></ors-header>
     <ors-body></ors-body>
     <ors-footer></ors-footer>`);
